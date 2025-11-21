@@ -1,0 +1,48 @@
+{
+  "title": "Fragments of Light",
+  "author": "Kintsugi Studio",
+  "pages": [
+    {
+      "id": "dawn",
+      "title": "Dawn in Porcelain",
+      "body": [
+        "Morning light pours through the cracks like gold lacquer, rejoining pieces that once drifted apart.",
+        "Breathe in slowly. Each inhale traces the curve of a repaired vessel; each exhale presses the seam together.",
+        "This chapter invites you to read deliberately—zoom when you need closer grain, swipe when you want to feel the pace."
+      ],
+      "image": {
+        "regular": "assets/images/page1.svg",
+        "retina": "assets/images/page1@2x.svg",
+        "alt": "Sunrise over layered hills"
+      }
+    },
+    {
+      "id": "drift",
+      "title": "Drift Lanterns",
+      "body": [
+        "Small lanterns balance on the ocean, carrying notes about where you paused last night.",
+        "Bookmarks are modern lanterns: quick anchors that remember your exact moment. Add them freely; they stay encrypted on this device.",
+        "Offline reading is a quiet harbor. When the signal drops, this library keeps every saved seam intact."
+      ],
+      "image": {
+        "regular": "assets/images/page2.svg",
+        "retina": "assets/images/page2@2x.svg",
+        "alt": "Lanterns floating on a violet tide"
+      }
+    },
+    {
+      "id": "neon",
+      "title": "Neon Rain",
+      "body": [
+        "Rainy avenues mirror the neon skyline. You can pinch to zoom on the signage details without losing crispness.",
+        "Every page turn gently eases forward or back; history keeps a thread so you can jump through scenes.",
+        "Remember: encrypted storage protects your trail, and clearing history is only a tap away."
+      ],
+      "image": {
+        "regular": "assets/images/page3.svg",
+        "retina": "assets/images/page3@2x.svg",
+        "alt": "Neon city buildings at night"
+      }
+    }
+  ]
+}

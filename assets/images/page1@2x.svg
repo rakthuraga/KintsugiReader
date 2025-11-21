@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="2800" viewBox="0 0 1100 1400" role="img" aria-label="Sunrise over hills high resolution">
+  <defs>
+    <linearGradient id="sunrise" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#f7b733" />
+      <stop offset="100%" stop-color="#f5593d" />
+    </linearGradient>
+    <linearGradient id="sky" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#071022" />
+      <stop offset="100%" stop-color="#1b2c4f" />
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="1400" fill="url(#sky)" />
+  <circle cx="240" cy="240" r="150" fill="url(#sunrise)" opacity="0.85" />
+  <circle cx="760" cy="250" r="110" fill="#ffe2b7" opacity="0.26" />
+  <circle cx="880" cy="290" r="60" fill="#f7b733" opacity="0.2" />
+  <path d="M0 760 Q220 700 440 760 T920 720 L1100 1400 H0 Z" fill="#0d1a33" opacity="0.9" />
+  <path d="M0 920 Q260 840 520 960 T1100 930 L1100 1400 H0 Z" fill="#122642" opacity="0.94" />
+  <path d="M0 1100 Q260 1020 520 1140 T1100 1100 L1100 1400 H0 Z" fill="#17335d" opacity="0.98" />
+  <text x="80" y="220" fill="#fff" font-family="Georgia, 'DM Serif Text', serif" font-size="70" font-weight="700">Dawn</text>
+  <text x="80" y="300" fill="#dfe6f2" font-family="'Manrope', 'Segoe UI', sans-serif" font-size="30" opacity="0.9">High fidelity illustration</text>
+</svg>

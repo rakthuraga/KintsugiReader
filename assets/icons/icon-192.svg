@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192" role="img" aria-label="Kintsugi Reader icon">
+  <defs>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7b733" />
+      <stop offset="100%" stop-color="#e55934" />
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="34" fill="#0b132b" />
+  <circle cx="96" cy="96" r="62" fill="url(#accent)" opacity="0.9" />
+  <path d="M58 138 C82 120 98 104 116 64" fill="none" stroke="#0b132b" stroke-width="10" stroke-linecap="round" />
+  <path d="M86 138 C102 112 126 108 134 74" fill="none" stroke="#0b132b" stroke-width="10" stroke-linecap="round" />
+</svg>

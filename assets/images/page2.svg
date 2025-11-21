@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1400" viewBox="0 0 1100 1400" role="img" aria-label="Ocean dusk with lanterns">
+  <defs>
+    <linearGradient id="sea" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0b3d91" />
+      <stop offset="100%" stop-color="#0b132b" />
+    </linearGradient>
+    <linearGradient id="lantern" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop offset="0%" stop-color="#ffdd85" />
+      <stop offset="100%" stop-color="#ff914d" />
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="1400" fill="url(#sea)" />
+  <circle cx="320" cy="220" r="90" fill="#ffe5a5" opacity="0.32" />
+  <circle cx="720" cy="180" r="70" fill="#ffcd70" opacity="0.25" />
+  <rect x="160" y="440" width="780" height="500" rx="30" fill="#0e1f3c" opacity="0.8" />
+  <path d="M0 980 Q280 940 540 1000 T1100 970 L1100 1400 H0 Z" fill="#0a1a34" opacity="0.88" />
+  <g opacity="0.9">
+    <rect x="260" y="520" width="60" height="160" rx="14" fill="url(#lantern)" />
+    <rect x="520" y="480" width="60" height="180" rx="14" fill="url(#lantern)" />
+    <rect x="780" y="510" width="60" height="150" rx="14" fill="url(#lantern)" />
+  </g>
+  <text x="70" y="230" fill="#dfe6f2" font-family="Georgia, 'DM Serif Text', serif" font-size="60" font-weight="700">Drift</text>
+  <text x="70" y="300" fill="#dfe6f2" font-family="'Manrope', 'Segoe UI', sans-serif" font-size="26" opacity="0.9">Quiet lanterns on a violet tide</text>
+</svg>

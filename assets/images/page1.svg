@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1400" viewBox="0 0 1100 1400" role="img" aria-label="Sunrise over hills">
+  <defs>
+    <linearGradient id="sunrise" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#f7b733" />
+      <stop offset="100%" stop-color="#f5593d" />
+    </linearGradient>
+    <linearGradient id="sky" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#0b132b" />
+      <stop offset="100%" stop-color="#1f2f54" />
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="1400" fill="url(#sky)" />
+  <circle cx="220" cy="240" r="130" fill="url(#sunrise)" opacity="0.8" />
+  <circle cx="720" cy="260" r="90" fill="#ffd7a1" opacity="0.22" />
+  <path d="M0 800 Q220 740 420 820 T900 780 L1100 1400 H0 Z" fill="#0f1e38" opacity="0.85" />
+  <path d="M0 980 Q260 880 520 1020 T1100 980 L1100 1400 H0 Z" fill="#132847" opacity="0.9" />
+  <path d="M0 1100 Q260 1000 520 1160 T1100 1120 L1100 1400 H0 Z" fill="#17335d" opacity="0.95" />
+  <text x="70" y="220" fill="#fff" font-family="Georgia, 'DM Serif Text', serif" font-size="64" font-weight="700">Dawn</text>
+  <text x="70" y="290" fill="#dfe6f2" font-family="'Manrope', 'Segoe UI', sans-serif" font-size="28" opacity="0.9">Highlights stitched together</text>
+</svg>

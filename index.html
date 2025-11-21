@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b132b">
+  <title>Kintsugi Reader</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="dot"></div>
+        <div class="wordmark">
+          <span class="eyebrow">HTML5</span>
+          <span class="title">Kintsugi Reader</span>
+        </div>
+      </div>
+      <div class="bar-actions">
+        <button id="prevPage" class="pill ghost" aria-label="Previous page">Prev</button>
+        <div class="page-counter">
+          <span id="pageCurrent">1</span>
+          <span class="sep">/</span>
+          <span id="pageTotal">--</span>
+        </div>
+        <button id="nextPage" class="pill primary" aria-label="Next page">Next</button>
+        <div class="offline-chip" id="offlineStatus" aria-live="polite">Offline ready</div>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="reader" id="readerSurface">
+        <div class="page chrome" id="pageFrame">
+          <div class="page-header">
+            <div class="pill mono" id="chapterLabel">Loading…</div>
+            <div class="actions">
+              <button id="zoomOut" class="icon-btn" aria-label="Zoom out">−</button>
+              <input id="zoomSlider" type="range" min="0.9" max="2.5" step="0.05" value="1">
+              <button id="zoomIn" class="icon-btn" aria-label="Zoom in">+</button>
+              <button id="resetZoom" class="pill ghost small">Reset</button>
+            </div>
+          </div>
+          <div class="page-body" id="pageBody" tabindex="0">
+            <picture id="pageImage" class="media-block">
+              <img src="" alt="Illustrated page" loading="lazy">
+            </picture>
+            <article id="pageText" class="page-text"></article>
+          </div>
+        </div>
+      </section>
+
+      <aside class="panel">
+        <div class="card glass">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">Bookmarks</p>
+              <h3>Keep spots</h3>
+            </div>
+            <button id="addBookmark" class="pill primary small">Add</button>
+          </div>
+          <ul id="bookmarkList" class="list"></ul>
+        </div>
+
+        <div class="card glass">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">History</p>
+              <h3>Recent reads</h3>
+            </div>
+            <button id="clearHistory" class="pill ghost small">Clear</button>
+          </div>
+          <ul id="historyList" class="list"></ul>
+        </div>
+
+        <div class="card glass">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">Security</p>
+              <h3>Encryption</h3>
+            </div>
+          </div>
+          <label class="field">
+            <span>Passphrase</span>
+            <input id="passphraseInput" type="password" autocomplete="current-password" placeholder="Offline key">
+          </label>
+          <button id="applyPassphrase" class="pill primary small">Update key</button>
+          <p class="note">Book, bookmarks, and history stay encrypted locally for offline use.</p>
+        </div>
+      </aside>
+    </main>
+
+    <footer class="bottombar">
+      <div class="progress">
+        <input id="pageSeek" type="range" min="1" max="1" value="1" step="1">
+        <div class="progress-labels">
+          <span>Start</span>
+          <span id="progressLabel">0%</span>
+          <span>End</span>
+        </div>
+      </div>
+      <div class="footer-actions">
+        <button id="toggleOffline" class="pill ghost">Cache for offline</button>
+        <button id="toggleTheme" class="pill ghost">Theme</button>
+      </div>
+    </footer>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

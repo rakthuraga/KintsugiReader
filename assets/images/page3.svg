@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1400" viewBox="0 0 1100 1400" role="img" aria-label="City night with neon and reflections">
+  <defs>
+    <linearGradient id="night" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d0f2a" />
+      <stop offset="100%" stop-color="#15234a" />
+    </linearGradient>
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#78ffe1" />
+      <stop offset="100%" stop-color="#f559a1" />
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="1400" fill="url(#night)" />
+  <rect x="120" y="260" width="160" height="620" rx="20" fill="#111836" opacity="0.8" />
+  <rect x="340" y="220" width="180" height="700" rx="20" fill="#131c3d" opacity="0.9" />
+  <rect x="580" y="260" width="160" height="650" rx="20" fill="#0f1837" opacity="0.85" />
+  <rect x="780" y="260" width="140" height="540" rx="20" fill="#0c1530" opacity="0.82" />
+  <rect x="120" y="760" width="200" height="40" rx="10" fill="url(#neon)" opacity="0.9" />
+  <rect x="340" y="680" width="200" height="40" rx="10" fill="url(#neon)" opacity="0.9" />
+  <rect x="580" y="740" width="160" height="40" rx="10" fill="url(#neon)" opacity="0.9" />
+  <rect x="780" y="640" width="140" height="40" rx="10" fill="url(#neon)" opacity="0.9" />
+  <path d="M0 1040 Q260 980 520 1040 T1100 1020 L1100 1400 H0 Z" fill="#0d132b" opacity="0.88" />
+  <path d="M0 1150 Q260 1100 520 1160 T1100 1120 L1100 1400 H0 Z" fill="#0b0f24" opacity="0.92" />
+  <text x="70" y="220" fill="#e3e8ff" font-family="Georgia, 'DM Serif Text', serif" font-size="58" font-weight="700">Neon rain</text>
+  <text x="70" y="290" fill="#b5c1d8" font-family="'Manrope', 'Segoe UI', sans-serif" font-size="26" opacity="0.9">City echoes stitched in glass</text>
+</svg>
